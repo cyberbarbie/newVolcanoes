@@ -1,0 +1,18 @@
+{
+  "name": "newvolcanoes",
+  "version": "1.0.0",
+  "description": "New Volcanoes Website ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Richard Shelton, Tae'lur Alexis",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-sanitizer": "^1.0.4",
+    "method-override": "^2.3.10",
+    "mysql": "^2.15.0"
+  }
+}
