@@ -38,7 +38,7 @@ app.get('/about', (req, res, err) => {
     }
 });
 
-app.get('/music', (req, res) => {
+app.get('/music', (req, res, err) => {
     res.render('music');
     if(err){
         console.log(err);
@@ -52,8 +52,15 @@ app.get('/music', (req, res) => {
     }
 }); */
 
-app.get('contact', (req, res) => {
+app.get('/contact', (req, res, err) => {
     res.render('contact');
+    if(err){
+        console.log(err);
+    }
+});
+
+app.get('/login', (req, res, err) => {
+    res.render('login');
     if(err){
         console.log(err);
     }

@@ -1,31 +1,18 @@
-    <footer>
-        <div class="EStrigger">
-            <a href="#" id="ESreveal" title="Open Footer"><i class="fas fa-sort-up"></i></a>
-        </div>
-        <div class="EScloser">
-            <a href="#" id="ESclose" title="Close Footer"><i class="fas fa-sort-down"></i></a>
-        </div>
-        <div class="ESfooter">
-            <div class="row">
-                <div class="col span-1-of-2 box">
-                    <p class="EStitle">Navigation</p>
-                    <hr>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                </div>
-                <div class="col span-1-of-2 box">
-                    <p class="EStitle">Follow Us</p>
-                    <hr>
-                    <a href=""><i class="fab fa-wikipedia-w"></i></a>
-                    <a href=""><i class="fab fa-facebook"></i></a>
-                    <a href=""><i class="fab fa-youtube"></i></a>
-                    <a href=""><i class="fab fa-soundcloud"></i></a>
-                </div>
-            </div>
-        </div>
-    </footer>
-
+    
+    <div class="overlay"></div>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyBQXjHWCRlv0v1650ZVXMnSKOHiZTfWcbM",
+            authDomain: "new-volcanoes.firebaseapp.com",
+            databaseURL: "https://new-volcanoes.firebaseio.com",
+            projectId: "new-volcanoes",
+            storageBucket: "new-volcanoes.appspot.com",
+            messagingSenderId: "178410713093"
+        };
+        firebase.initializeApp(config);
+    </script>
     <script src="js/footer.js"></script>
 </body>
 </head> 
